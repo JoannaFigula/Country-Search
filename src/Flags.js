@@ -45,7 +45,7 @@ class Flags extends Component {
                 {this.state.flags.map((country, index) => {
                     return (
                         <div key={index} onClick={() => this.onClickFlag(country)} className="flags">
-                            <img src={country.flag}/>
+                            <img alt=""  src={country.flag}/>
                         </div>
                     )
                 })}

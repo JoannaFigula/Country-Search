@@ -12,14 +12,14 @@ class Info extends Component {
 
                 <div className="country-image">
                     {/*<img src={this.props.countryInfo.flag ? this.props.countryInfo.flag : 'images/poland.jpg'}/>*/}
-                    <img src={this.props.countryInfo.flag}/>
+                    <img alt="" src={this.props.countryInfo.flag}/>
                 </div>
 
 
                 <div className="country-info">
                     <div className="country-plan row">
                         <div className="col-2">
-                            <h1>Main informations:</h1>
+                            <h1>General informations</h1>
                         </div>
                     </div>
                     <div className="plan">
